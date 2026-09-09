@@ -1,0 +1,13 @@
+{
+  "name": "alchemynote-demo",
+  "version": "0.1.0",
+  "private": true,
+  "packageManager": "pnpm@10.15.1",
+  "scripts": {
+    "dev": "node scripts/dev-local.mjs",
+    "dev:direct": "npm --prefix apps/web run dev -- -p 3100",
+    "build": "node scripts/build-local.mjs",
+    "start": "node scripts/start-local.mjs",
+    "typecheck": "npm --prefix apps/web run typecheck"
+  }
+}
